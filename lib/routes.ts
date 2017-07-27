@@ -24,7 +24,7 @@ const isNormalInteger = (value: string): boolean => {
 };
 
 router.get('/', async (ctx, next) => {
-  ctx.body = `<a href="/complexes">complexes</a>`;
+  ctx.body = `<a href="/complexes">complexes</a> <a href="/complex/1">complex</a>`;
 });
 
 /** 
@@ -36,7 +36,8 @@ router.get('/complexes', async (ctx, next) => {
   const json = await loadJsonFile('lib/data.json');
   const filter = ctx.query['filter[state]'];
   if (filter) {
-    ctx.body = json.items.filter((item: Complex) => item.state == 'public');
+    const filtered = json.items.filter((item: Complex) => item.state == 'public');
+    ctx.body = { items: filtered };
   } else {
     ctx.body = json;
   }
@@ -45,7 +46,7 @@ router.get('/complexes', async (ctx, next) => {
 /**
  * Get complex by id/slug
  */
-router.get('/complex/:complexId', async (ctx, next) => {
+router.get('/complexes/:complexId', async (ctx, next) => {
   await next();
 
   const complexId: string = ctx.params.complexId;
