@@ -17,7 +17,7 @@ import router from './routes';
 const app = new Koa();
 const port = process.env.PORT || 5555;
 
-app.use(bodyParser()).use(router.routes()).use(router.allowedMethods()).use(cors);
+app.use(cors()).use(bodyParser()).use(router.routes()).use(router.allowedMethods());
 
 app.listen(port, () => console.log(chalk.black.bgGreen.bold(`Listening on port ${port}`)));
 
