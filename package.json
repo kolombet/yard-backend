@@ -1,5 +1,5 @@
 {
-  "name": "koa2-typescript-boilerplate",
+  "name": "yard-backend",
   "version": "2.0.0",
   "engines": {
     "node": "6.9.1"
@@ -12,13 +12,10 @@
     "build": "tsc",
     "start": "node build/index.js",
     "dev-server": "nodemon -w lib -x ts-node lib/index.ts",
-    "lint": "tslint lib/**/*.ts"
+    "lint": "tslint lib/**/*.ts",
+    "now": "yarn build && now --public --name yard-backend && now alias"
   },
-  "keywords": [
-    "typescript",
-    "koa",
-    "koa2"
-  ],
+  "keywords": ["typescript", "koa", "koa2"],
   "author": "Ændrew Rininsland <aendrew@aendrew.com>",
   "license": "ISC",
   "dependencies": {
@@ -27,12 +24,14 @@
     "@types/koa": "^2.0.34",
     "@types/koa-bodyparser": "^3.0.20",
     "@types/koa-router": "^7.0.21",
+    "@types/load-json-file": "^2.0.5",
     "@types/node": "^6.0.48",
     "chalk": "^1.1.3",
     "dotenv": "^2.0.0",
     "koa": "^2.0.0",
     "koa-bodyparser": "^3.1.0",
-    "koa-router": "^7.0.1"
+    "koa-router": "^7.0.1",
+    "load-json-file": "^2.0.0"
   },
   "devDependencies": {
     "@types/bluebird": "^3.0.35",
@@ -56,5 +55,8 @@
   "repository": {
     "url": "git@github.com:aendrew/koa2-typescript-boilerplate.git",
     "type": "git"
+  },
+  "now": {
+    "alias": "kolombet-yard-frontend"
   }
 }

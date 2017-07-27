@@ -1,0 +1,668 @@
+{
+  "items": [
+    {
+      "adjacentTerritory": {
+        "isAccessOpen": false,
+        "isAllowedCars": false,
+        "isGreeneryPlanted": true
+      },
+      "name": "Knightsbridge Private Park",
+      "updatedAt": "2017-07-04T21:31:14.727Z",
+      "location": {
+        "latitude": "55.7221",
+        "localityId": 3,
+        "subLocalityName": "РҐР°РјРѕРІРЅРёРєРё",
+        "subwayIds": [],
+        "countryName": "Р РѕСЃСЃРёСЏ",
+        "longitude": "37.5702281",
+        "postalCode": 119048,
+        "countryId": 1,
+        "subLocalityId": 7,
+        "house": "14/19",
+        "localityName": "РњРѕСЃРєРІР°",
+        "street": "СѓР» РљРѕРѕРїРµСЂР°С‚РёРІРЅР°СЏ",
+        "regionId": 2,
+        "regionName": "РњРѕСЃРєРІР°"
+      },
+      "state": "draft",
+      "statistics": {
+        "resalePropertiesCount": 0,
+        "price": {
+          "from": { "usd": 0, "eur": 0, "rub": 0 },
+          "to": { "usd": 0, "eur": 0, "rub": 0 }
+        },
+        "totalResaleArea": { "from": 0.0, "to": 0.0 },
+        "resalePrice": {
+          "from": { "usd": 0, "eur": 0, "rub": 0 },
+          "to": { "usd": 0, "eur": 0, "rub": 0 }
+        },
+        "propertiesCount": 0,
+        "totalPrimaryArea": { "from": 0.0, "to": 0.0 },
+        "primaryPrice": {
+          "from": { "usd": 0, "eur": 0, "rub": 0 },
+          "to": { "usd": 0, "eur": 0, "rub": 0 }
+        },
+        "primaryPropertiesCount": 0,
+        "totalArea": { "from": 0.0, "to": 0.0 }
+      },
+      "purchaseTimeConditions": {},
+      "linkedContactIds": [],
+      "propertyDefaults": {
+        "saleOffer": {
+          "isMortgage": true,
+          "agentFee": 3.0,
+          "isBargain": false,
+          "kind": "direct_sell",
+          "isInstallment": false
+        },
+        "information": {
+          "renovate": "for_finishing",
+          "condition": "great",
+          "ventilation": "central",
+          "furniture": "absent",
+          "conditioning": "own"
+        }
+      },
+      "slug": "knightsbridge-private-park",
+      "responsibleUser": { "id": 2, "departmentId": 1 },
+      "createdByUserId": 2,
+      "id": 5,
+      "amenities": [],
+      "updatedByUserId": 2,
+      "createdAt": "2016-11-14T20:57:53.257Z",
+      "details": {
+        "commissioningYear": 2016,
+        "security": "guarded",
+        "parkings": 0,
+        "contractType": "ddu",
+        "withWasteDisposalRoom": true,
+        "commissioningQuarter": "fourth",
+        "constructionKind": "brick_monolithic",
+        "propertyKind": "flat",
+        "withRubbishChute": false,
+        "maintenanceCosts": 150,
+        "startQuarter": "fourth",
+        "startYear": 2010,
+        "ceilHeight": { "from": 1.0, "to": 1.0 },
+        "undergroundGarages": 475,
+        "infrastructureUnits": [],
+        "architect": "Speech",
+        "accreditors": []
+      },
+      "installment": {},
+      "images": []
+    },
+    {
+      "adjacentTerritory": {
+        "isAccessOpen": false,
+        "isAllowedCars": false,
+        "isGreeneryPlanted": true
+      },
+      "name": "РџРѕР»СЏРЅРєР°/44",
+      "updatedAt": "2017-07-04T21:30:08.455Z",
+      "location": {
+        "latitude": "55.7327538",
+        "localityId": 3,
+        "subLocalityName": "РЇРєРёРјР°РЅРєР°",
+        "subwayIds": [],
+        "countryName": "Р РѕСЃСЃРёСЏ",
+        "longitude": "37.6194267",
+        "postalCode": 119180,
+        "countryId": 1,
+        "subLocalityId": 5,
+        "house": "44/2",
+        "localityName": "РњРѕСЃРєРІР°",
+        "street": "СѓР» РџРѕР»СЏРЅРєР° Р‘.",
+        "regionId": 2,
+        "regionName": "РњРѕСЃРєРІР°"
+      },
+      "state": "public",
+      "statistics": {
+        "resalePropertiesCount": 0,
+        "price": {
+          "from": { "usd": 574912, "eur": 504619, "rub": 34920000 },
+          "to": { "usd": 2596193, "eur": 2278763, "rub": 157692000 }
+        },
+        "totalResaleArea": { "from": 0.0, "to": 0.0 },
+        "resalePrice": {
+          "from": { "usd": 0, "eur": 0, "rub": 0 },
+          "to": { "usd": 0, "eur": 0, "rub": 0 }
+        },
+        "propertiesCount": 69,
+        "totalPrimaryArea": { "from": 48.5, "to": 241.0 },
+        "primaryPrice": {
+          "from": { "usd": 574912, "eur": 504619, "rub": 34920000 },
+          "to": { "usd": 2596193, "eur": 2278763, "rub": 157692000 }
+        },
+        "primaryPropertiesCount": 69,
+        "totalArea": { "from": 48.5, "to": 241.0 }
+      },
+      "image": {
+        "height": 1225,
+        "isPublic": true,
+        "id": "CLX3-be9d4036",
+        "width": 1700
+      },
+      "purchaseTimeConditions": {},
+      "cianId": 7475,
+      "linkedContactIds": [],
+      "propertyDefaults": {
+        "saleOffer": {
+          "isMortgage": true,
+          "agentFee": 100.0,
+          "isBargain": false,
+          "kind": "direct_sell",
+          "isInstallment": true
+        },
+        "information": {
+          "renovate": "for_finishing",
+          "condition": "great",
+          "ventilation": "own",
+          "furniture": "absent",
+          "conditioning": "own"
+        }
+      },
+      "slug": "polyanka44",
+      "responsibleUser": { "id": 2, "departmentId": 1 },
+      "createdByUserId": 2,
+      "id": 3,
+      "amenities": [],
+      "updatedByUserId": 2,
+      "createdAt": "2016-11-14T20:24:55.612Z",
+      "details": {
+        "commissioningYear": 2018,
+        "houseKind": "new",
+        "security": "guarded",
+        "parkings": 0,
+        "contractType": "ddu",
+        "withWasteDisposalRoom": true,
+        "commissioningQuarter": "second",
+        "constructionKind": "brick_monolithic",
+        "withRubbishChute": false,
+        "maintenanceCosts": 150,
+        "startQuarter": "third",
+        "startYear": 2014,
+        "ceilHeight": { "from": 3.3499999046325684, "to": 3.3499999046325684 },
+        "undergroundGarages": 372,
+        "infrastructureUnits": [],
+        "architect": "Speech",
+        "accreditors": []
+      },
+      "installment": { "months": 6, "initial": 30.0, "overpayment": 0 },
+      "images": [
+        {
+          "height": 1225,
+          "isPublic": true,
+          "id": "CLX3-be9d4036",
+          "width": 1700
+        },
+        {
+          "height": 1275,
+          "isPublic": true,
+          "id": "CLX3-bce7ecd6",
+          "width": 1700
+        }
+      ]
+    },
+    {
+      "adjacentTerritory": {
+        "isAccessOpen": false,
+        "isAllowedCars": false,
+        "isGreeneryPlanted": true
+      },
+      "name": "РЎР°РґРѕРІС‹Рµ РєРІР°СЂС‚Р°Р»С‹",
+      "updatedAt": "2017-07-04T21:21:34.8Z",
+      "location": {
+        "latitude": "55.7260909",
+        "localityId": 3,
+        "subLocalityName": "РҐР°РјРѕРІРЅРёРєРё",
+        "subwayIds": [],
+        "countryName": "Р РѕСЃСЃРёСЏ",
+        "longitude": "37.5756728",
+        "postalCode": 119048,
+        "countryId": 1,
+        "subLocalityId": 7,
+        "house": "10",
+        "localityName": "РњРѕСЃРєРІР°",
+        "street": "СѓР» Р•С„СЂРµРјРѕРІР°",
+        "regionId": 2,
+        "regionName": "РњРѕСЃРєРІР°"
+      },
+      "state": "public",
+      "statistics": {
+        "resalePropertiesCount": 0,
+        "price": {
+          "from": { "usd": 617788, "eur": 542252, "rub": 37524249 },
+          "to": { "usd": 2481594, "eur": 2178176, "rub": 150731298 }
+        },
+        "totalResaleArea": { "from": 0.0, "to": 0.0 },
+        "resalePrice": {
+          "from": { "usd": 0, "eur": 0, "rub": 0 },
+          "to": { "usd": 0, "eur": 0, "rub": 0 }
+        },
+        "propertiesCount": 99,
+        "totalPrimaryArea": {
+          "from": 67.9000015258789,
+          "to": 242.97000122070312
+        },
+        "primaryPrice": {
+          "from": { "usd": 617788, "eur": 542252, "rub": 37524249 },
+          "to": { "usd": 2481594, "eur": 2178176, "rub": 150731298 }
+        },
+        "primaryPropertiesCount": 99,
+        "totalArea": { "from": 67.9000015258789, "to": 242.97000122070312 }
+      },
+      "image": {
+        "height": 1080,
+        "isPublic": true,
+        "id": "CLX6-d0e17284",
+        "width": 1920
+      },
+      "purchaseTimeConditions": {},
+      "cianId": 130,
+      "linkedContactIds": [],
+      "propertyDefaults": {
+        "saleOffer": {
+          "isMortgage": false,
+          "agentFee": 2.5,
+          "isBargain": false,
+          "kind": "direct_sell",
+          "isInstallment": true
+        },
+        "information": {
+          "renovate": "raw",
+          "condition": "great",
+          "ventilation": "central",
+          "furniture": "absent",
+          "conditioning": "own"
+        }
+      },
+      "slug": "sadovyye-kvartaly",
+      "responsibleUser": { "id": 2, "departmentId": 1 },
+      "createdByUserId": 2,
+      "id": 6,
+      "amenities": [],
+      "updatedByUserId": 2,
+      "createdAt": "2016-12-06T17:16:18.185Z",
+      "details": {
+        "commissioningYear": 2018,
+        "houseKind": "new",
+        "security": "guarded",
+        "parkings": 0,
+        "contractType": "ddu",
+        "withWasteDisposalRoom": true,
+        "commissioningQuarter": "second",
+        "constructionKind": "monolith",
+        "propertyKind": "flat",
+        "withRubbishChute": false,
+        "maintenanceCosts": 150,
+        "startQuarter": "second",
+        "startYear": 2010,
+        "ceilHeight": { "from": 3.200000047683716, "to": 4.699999809265137 },
+        "undergroundGarages": 1869,
+        "infrastructureUnits": [],
+        "architect": "Speech",
+        "accreditors": []
+      },
+      "installment": { "months": 30, "initial": 35.0, "overpayment": 0 },
+      "images": [
+        {
+          "height": 1080,
+          "isPublic": true,
+          "id": "CLX6-d0e17284",
+          "width": 1920
+        }
+      ]
+    },
+    {
+      "adjacentTerritory": {
+        "isAccessOpen": false,
+        "isAllowedCars": true,
+        "isGreeneryPlanted": true
+      },
+      "name": "Р РµР·РёРґРµРЅС†РёСЏ РњРћРќР­",
+      "updatedAt": "2017-07-04T21:21:17.147Z",
+      "location": {
+        "latitude": "55.7626481",
+        "localityId": 3,
+        "subLocalityName": "РџСЂРµСЃРЅРµРЅСЃРєРёР№",
+        "subwayIds": [],
+        "countryName": "Р РѕСЃСЃРёСЏ",
+        "longitude": "37.5544396",
+        "postalCode": 123022,
+        "countryId": 1,
+        "subLocalityId": 8,
+        "house": "13",
+        "localityName": "РњРѕСЃРєРІР°",
+        "street": "СѓР» Р—РІРµРЅРёРіРѕСЂРѕРґСЃРєР°СЏ 2-СЏ",
+        "regionId": 2,
+        "regionName": "РњРѕСЃРєРІР°"
+      },
+      "state": "public",
+      "statistics": {
+        "resalePropertiesCount": 0,
+        "price": {
+          "from": { "usd": 537461, "eur": 471747, "rub": 32645200 },
+          "to": { "usd": 4558114, "eur": 4000805, "rub": 276858500 }
+        },
+        "totalResaleArea": { "from": 0.0, "to": 0.0 },
+        "resalePrice": {
+          "from": { "usd": 0, "eur": 0, "rub": 0 },
+          "to": { "usd": 0, "eur": 0, "rub": 0 }
+        },
+        "propertiesCount": 79,
+        "totalPrimaryArea": {
+          "from": 65.0999984741211,
+          "to": 291.42999267578125
+        },
+        "primaryPrice": {
+          "from": { "usd": 537461, "eur": 471747, "rub": 32645200 },
+          "to": { "usd": 4558114, "eur": 4000805, "rub": 276858500 }
+        },
+        "primaryPropertiesCount": 79,
+        "totalArea": { "from": 65.0999984741211, "to": 291.42999267578125 }
+      },
+      "image": {
+        "height": 1333,
+        "isPublic": true,
+        "id": "CLX2-7039efad",
+        "width": 2000
+      },
+      "purchaseTimeConditions": {},
+      "cianId": 7178,
+      "linkedContactIds": [],
+      "propertyDefaults": {
+        "saleOffer": {
+          "isMortgage": true,
+          "agentFee": 3.0,
+          "isBargain": false,
+          "kind": "direct_sell",
+          "isInstallment": true
+        },
+        "information": {
+          "renovate": "for_finishing",
+          "condition": "great",
+          "ventilation": "own",
+          "furniture": "absent",
+          "conditioning": "own"
+        }
+      },
+      "slug": "rezidentsiya-mone",
+      "responsibleUser": { "id": 2, "departmentId": 1 },
+      "createdByUserId": 2,
+      "id": 2,
+      "amenities": [],
+      "updatedByUserId": 2,
+      "createdAt": "2016-10-31T21:45:53.91Z",
+      "details": {
+        "commissioningYear": 2017,
+        "houseKind": "new",
+        "security": "guarded",
+        "parkings": 0,
+        "contractType": "ddu",
+        "keysIssueDate": "2017-10-01",
+        "withWasteDisposalRoom": true,
+        "commissioningQuarter": "third",
+        "constructionKind": "brick_monolithic",
+        "withRubbishChute": false,
+        "maintenanceCosts": 150,
+        "startQuarter": "first",
+        "startYear": 2014,
+        "ceilHeight": { "from": 3.299999952316284, "to": 4.099999904632568 },
+        "undergroundGarages": 212,
+        "infrastructureUnits": [],
+        "architect": "Speech",
+        "accreditors": []
+      },
+      "installment": { "months": 4, "initial": 55.0, "overpayment": 0 },
+      "images": [
+        {
+          "height": 1333,
+          "isPublic": true,
+          "id": "CLX2-7039efad",
+          "width": 2000
+        },
+        {
+          "height": 1333,
+          "isPublic": true,
+          "id": "CLX2-8991b05a",
+          "width": 2000
+        },
+        {
+          "height": 1333,
+          "isPublic": true,
+          "id": "CLX2-69132ac8",
+          "width": 2000
+        },
+        {
+          "height": 1334,
+          "isPublic": true,
+          "id": "CLX2-f1cabd97",
+          "width": 2000
+        },
+        {
+          "height": 1334,
+          "isPublic": true,
+          "id": "CLX2-9e7e8a12",
+          "width": 2000
+        },
+        {
+          "height": 1334,
+          "isPublic": true,
+          "id": "CLX2-4dcfc10a",
+          "width": 2000
+        },
+        {
+          "height": 1334,
+          "isPublic": true,
+          "id": "CLX2-476accec",
+          "width": 2000
+        }
+      ]
+    },
+    {
+      "adjacentTerritory": {
+        "isAccessOpen": false,
+        "isAllowedCars": true,
+        "isGreeneryPlanted": true
+      },
+      "name": "TriBeCa Apartments",
+      "updatedAt": "2017-07-04T17:30:17.672Z",
+      "location": {
+        "latitude": "55.7749102",
+        "localityId": 3,
+        "subLocalityName": "Р‘Р°СЃРјР°РЅРЅС‹Р№",
+        "subwayIds": [],
+        "countryName": "Р РѕСЃСЃРёСЏ",
+        "longitude": "37.6730541",
+        "postalCode": 105066,
+        "countryId": 1,
+        "subLocalityId": 6,
+        "house": "35 СЃС‚СЂ 48/50",
+        "localityName": "РњРѕСЃРєРІР°",
+        "street": "СѓР» РљСЂР°СЃРЅРѕСЃРµР»СЊСЃРєР°СЏ РќРёР¶РЅ.",
+        "regionId": 2,
+        "regionName": "РњРѕСЃРєРІР°"
+      },
+      "state": "public",
+      "statistics": {
+        "resalePropertiesCount": 0,
+        "price": {
+          "from": { "usd": 187159, "eur": 164276, "rub": 11368000 },
+          "to": { "usd": 1703567, "eur": 1495276, "rub": 103474125 }
+        },
+        "totalResaleArea": { "from": 0.0, "to": 0.0 },
+        "resalePrice": {
+          "from": { "usd": 0, "eur": 0, "rub": 0 },
+          "to": { "usd": 0, "eur": 0, "rub": 0 }
+        },
+        "propertiesCount": 75,
+        "totalPrimaryArea": {
+          "from": 38.79999923706055,
+          "to": 417.20001220703125
+        },
+        "primaryPrice": {
+          "from": { "usd": 187159, "eur": 164276, "rub": 11368000 },
+          "to": { "usd": 1703567, "eur": 1495276, "rub": 103474125 }
+        },
+        "primaryPropertiesCount": 75,
+        "totalArea": { "from": 38.79999923706055, "to": 417.20001220703125 }
+      },
+      "image": {
+        "height": 1080,
+        "isPublic": true,
+        "id": "CLX4-1a595d3d",
+        "width": 1920
+      },
+      "purchaseTimeConditions": {},
+      "cianId": 7200,
+      "linkedContactIds": [],
+      "propertyDefaults": {
+        "saleOffer": {
+          "isMortgage": true,
+          "agentFee": 4.0,
+          "isBargain": false,
+          "kind": "direct_sell",
+          "isInstallment": false
+        },
+        "information": {
+          "renovate": "rough_finish",
+          "condition": "great",
+          "ventilation": "central",
+          "furniture": "absent",
+          "conditioning": "own"
+        }
+      },
+      "slug": "tribeca-apartments",
+      "responsibleUser": { "id": 2, "departmentId": 1 },
+      "createdByUserId": 2,
+      "id": 4,
+      "amenities": [],
+      "updatedByUserId": 2,
+      "createdAt": "2016-11-14T20:49:21.809Z",
+      "details": {
+        "commissioningYear": 2016,
+        "security": "guarded",
+        "parkings": 700,
+        "contractType": "ddu",
+        "withWasteDisposalRoom": true,
+        "commissioningQuarter": "third",
+        "constructionKind": "brick_monolithic",
+        "withRubbishChute": false,
+        "maintenanceCosts": 150,
+        "startQuarter": "second",
+        "startYear": 2013,
+        "ceilHeight": { "from": 3.200000047683716, "to": 6.0 },
+        "undergroundGarages": 0,
+        "infrastructureUnits": [],
+        "architect": "Speech",
+        "accreditors": []
+      },
+      "installment": {},
+      "images": [
+        {
+          "height": 1080,
+          "isPublic": true,
+          "id": "CLX4-1a595d3d",
+          "width": 1920
+        }
+      ]
+    },
+    {
+      "adjacentTerritory": {
+        "isAccessOpen": false,
+        "isAllowedCars": true,
+        "isGreeneryPlanted": true
+      },
+      "name": "Р’РўР‘ РђСЂРµРЅР° РїР°СЂРє",
+      "updatedAt": "2017-07-04T11:11:56.449Z",
+      "location": {
+        "latitude": "55.7905936",
+        "localityId": 3,
+        "subLocalityName": "РђСЌСЂРѕРїРѕСЂС‚",
+        "subwayIds": [],
+        "countryName": "Р РѕСЃСЃРёСЏ",
+        "longitude": "37.5599367",
+        "postalCode": 125167,
+        "countryId": 1,
+        "subLocalityId": 4,
+        "house": "36",
+        "localityName": "РњРѕСЃРєРІР°",
+        "street": "Р›РµРЅРёРЅРіСЂР°РґСЃРєРёР№ РїСЂ-РєС‚",
+        "regionId": 2,
+        "regionName": "РњРѕСЃРєРІР°"
+      },
+      "state": "draft",
+      "statistics": {
+        "resalePropertiesCount": 0,
+        "price": {
+          "from": { "usd": 191553, "eur": 168132, "rub": 11634884 },
+          "to": { "usd": 4138832, "eur": 3632787, "rub": 251391429 }
+        },
+        "totalResaleArea": { "from": 0.0, "to": 0.0 },
+        "resalePrice": {
+          "from": { "usd": 0, "eur": 0, "rub": 0 },
+          "to": { "usd": 0, "eur": 0, "rub": 0 }
+        },
+        "propertiesCount": 513,
+        "totalPrimaryArea": {
+          "from": 40.79999923706055,
+          "to": 373.8999938964844
+        },
+        "primaryPrice": {
+          "from": { "usd": 191553, "eur": 168132, "rub": 11634884 },
+          "to": { "usd": 4138832, "eur": 3632787, "rub": 251391429 }
+        },
+        "primaryPropertiesCount": 513,
+        "totalArea": { "from": 40.79999923706055, "to": 373.8999938964844 }
+      },
+      "purchaseTimeConditions": {},
+      "cianId": 5535,
+      "linkedContactIds": [],
+      "propertyDefaults": {
+        "saleOffer": {
+          "isMortgage": true,
+          "agentFee": 3.0,
+          "isBargain": false,
+          "kind": "direct_sell",
+          "isInstallment": true
+        },
+        "information": {
+          "renovate": "raw",
+          "condition": "great",
+          "ventilation": "central",
+          "furniture": "absent",
+          "conditioning": "central"
+        }
+      },
+      "slug": "vtb-arena-park",
+      "responsibleUser": { "id": 2, "departmentId": 1 },
+      "createdByUserId": 2,
+      "id": 1,
+      "amenities": [],
+      "updatedByUserId": 2,
+      "createdAt": "2016-10-25T21:44:23.808Z",
+      "details": {
+        "commissioningYear": 2018,
+        "houseKind": "new",
+        "security": "guarded",
+        "parkings": 500,
+        "contractType": "ddu",
+        "commissioningQuarter": "first",
+        "constructionKind": "monolith",
+        "propertyKind": "apartment",
+        "maintenanceCosts": 150,
+        "startQuarter": "second",
+        "startYear": 2014,
+        "ceilHeight": { "from": 3.0999999046325684, "to": 3.4000000953674316 },
+        "undergroundGarages": 1500,
+        "infrastructureUnits": [],
+        "architect": "Speech",
+        "accreditors": []
+      },
+      "installment": { "months": 12, "initial": 35.0, "overpayment": 0 },
+      "images": []
+    }
+  ],
+  "pagination": { "total": 6, "limit": 32, "offset": 0 }
+}
