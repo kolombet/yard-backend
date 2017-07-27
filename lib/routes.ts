@@ -35,7 +35,6 @@ router.get('/complexes', async (ctx, next) => {
 
   const json = await loadJsonFile('lib/data.json');
   const filter = ctx.query['filter[state]'];
-  console.log(filter);
   if (filter) {
     ctx.body = json.items.filter((item: Complex) => item.state == 'public');
   } else {

@@ -10,15 +10,14 @@ if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') require('do
 import * as Koa from 'koa';
 import * as bodyParser from 'koa-bodyparser';
 import * as chalk from 'chalk';
+import * as cors from 'kcors';
 
 import router from './routes';
 
 const app = new Koa();
 const port = process.env.PORT || 5555;
 
-app.use(bodyParser())
-   .use(router.routes())
-   .use(router.allowedMethods());
+app.use(bodyParser()).use(router.routes()).use(router.allowedMethods()).use(cors);
 
 app.listen(port, () => console.log(chalk.black.bgGreen.bold(`Listening on port ${port}`)));
 
