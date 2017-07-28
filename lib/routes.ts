@@ -18,13 +18,13 @@ const toInteger = (value: string): number => {
   return Math.floor(Number(value));
 };
 
-const isNormalInteger = (value: string): boolean => {
+const isInteger = (value: string): boolean => {
   const n = toInteger(value);
   return String(n) === value && n >= 0;
 };
 
 router.get('/', async (ctx, next) => {
-  ctx.body = `<a href="/complexes">complexes</a> <a href="/complex/1">complex</a>`;
+  ctx.body = `<a href="//github.com/kolombet/yard-backend">API FAQ</a>`;
 });
 
 /** 
@@ -34,6 +34,7 @@ router.get('/complexes', async (ctx, next) => {
   await next();
 
   const json = await loadJsonFile('lib/data.json');
+  //filter hardcoded - support filtration only by field `state`
   const filter = ctx.query['filter[state]'];
   if (filter) {
     const filtered = json.items.filter((item: Complex) => item.state == 'public');
@@ -53,7 +54,7 @@ router.get('/complexes/:complexId', async (ctx, next) => {
   const json = await loadJsonFile('lib/data.json');
 
   const complexes: Array<Complex> = json.items;
-  if (isNormalInteger(complexId)) {
+  if (isInteger(complexId)) {
     const id = toInteger(complexId);
     ctx.body = complexes.filter((item: Complex) => item.id == id)[0];
   } else {

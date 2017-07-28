@@ -15,7 +15,11 @@
     "lint": "tslint lib/**/*.ts",
     "now": "yarn build && now --public --name yard-backend && now alias"
   },
-  "keywords": ["typescript", "koa", "koa2"],
+  "keywords": [
+    "typescript",
+    "koa",
+    "koa2"
+  ],
   "author": "Ændrew Rininsland <aendrew@aendrew.com>",
   "license": "ISC",
   "dependencies": {
