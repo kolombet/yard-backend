@@ -5,22 +5,15 @@
     "noImplicitAny": true,
     "sourceMap": true,
     "outDir": "./build",
-    "rootDir": "./lib"
+    "rootDir": "./lib",
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types"]
   },
   "compileOnSave": false,
-  "filesGlob": [
-    "./lib/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ],
+  "filesGlob": ["./lib/**/*.ts"],
+  "exclude": ["node_modules"],
   "atom": {
     "rewriteTsconfig": true
   },
-  "files": [
-    "./lib/index.ts",
-    "./lib/routes.ts",
-    "./lib/test/index.spec.ts",
-    "./lib/test/routes.spec.ts"
-  ]
+  "files": ["./lib/index.ts", "./lib/routes.ts", "./lib/test/index.spec.ts", "./lib/test/routes.spec.ts"]
 }
